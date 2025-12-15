@@ -1,23 +1,23 @@
-# 📊 Amazon Arts, Crafts & Sewing — Reviews Dashboard
+# Amazon Arts, Crafts & Sewing — Reviews Dashboard
 
 An interactive Streamlit dashboard for exploring and analyzing product reviews. Visualize trends, generate word clouds, and train a machine learning model to predict review scores.
 
 ## Features
 
-### 📈 Interactive Visualizations
+### Interactive Visualizations
 - **Star Rating Distribution** — Bar chart showing review counts at each rating level
 - **Proportional Star Count** — Optionally downsample 5-star reviews for balanced analysis
 - **Review Length vs Stars** — Scatter plot showing the relationship between review length and rating
 - **Helpful Votes vs Stars** — Scatter plot of how helpful reviews correlate with ratings
 - **Word Clouds** — Visual word frequency for 1-star through 5-star reviews with custom stopwords
 
-### 🎛️ Smart Filters
+### Smart Filters
 - **Filter by Star Rating** — Choose which ratings to display (multiselect)
 - **Filter by Review Length** — Set minimum and maximum review length
 - **Custom Stopwords** — Remove common words from word cloud generation
 - **Live Count** — Always see how many reviews match your filters
 
-### 🤖 Machine Learning
+### Machine Learning
 - **Fast Training** — MultinomialNB model trains quickly on any dataset size
 - **One-Time Training** — Train once, then reuse for multiple predictions
 - **Confusion Matrix** — View model performance metrics
